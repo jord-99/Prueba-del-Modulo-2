@@ -1,0 +1,31 @@
+<div>
+    <h2>Personaje </h2>
+</div>
+<div> 
+<div>
+    <div>
+        <img src="{{character.img_url}}" /> 
+    </div>
+
+    <div>
+        <h1>
+             {{character.name}}
+        </h1>
+        <p> Status: {{character.status}}</p>
+        <p> Specie: {{character.species}}</p>
+        <p> Gender: {{character.gender}}</p>
+        <p>Alias</p>
+        <ul *ngFor="let item of character.alias"> 
+            <li>
+                {{item}}
+            </li>
+        </ul>
+        <p> Origin: {{character.origin}}</p>
+        <p>Abilities</p>
+        <ul *ngFor="let item of character.abilities"> 
+            <li>
+                {{item}}
+            </li>
+        </ul>
+</div>
+</div>

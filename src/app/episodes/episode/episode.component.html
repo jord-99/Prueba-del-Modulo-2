@@ -1,0 +1,21 @@
+<div>
+    <h2>Episodio </h2>
+</div>
+<div> 
+<div >
+    <div>
+        <img src="{{episode.img_url}}" /> 
+    </div>
+
+    <div>
+        <h1>
+             {{episode.name}}
+        </h1>
+        <p> air_date: {{episode.air_date}}</p>
+        <p> director: {{episode.director}}</p>
+        <p> writer: {{episode.writer}}</p>
+        <p *ngFor="let item of episode.characters">
+            capitulo : {{item}}
+        </p>
+</div>
+</div>
