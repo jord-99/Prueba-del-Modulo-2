@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { EpisodesComponent } from './episodes/episodes.component';
 import { CharactersComponent } from './characters/characters.component';
 import { EpisodeComponent } from './episodes/episode/episode.component';
+import "tailwindcss/tailwind.css"
 
 @NgModule({
   declarations: [
